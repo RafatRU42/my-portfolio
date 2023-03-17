@@ -1,11 +1,13 @@
 import React from 'react';
 import Title from '../Layout/Title';
 import Card from './Card';
-import {AiFillAppstore,SiProgress,FaMobile,SiAntdesign,FaGlobe} from 'react-icons/fa'
+import {FaMobile,FaGlobe} from 'react-icons/fa';
+import {AiFillAppstore} from 'react-icons/ai';
+import {SiProgress,SiAntdesign} from 'react-icons/si'
 
 const Features = () => {
     return (
-        <section id='feature' className='w-full py-20 border-b-[1px] border-b-[black]'>
+        <section id='feature' className='w-full border-b-[1px] border-b-[black]'>
             <Title title={"feature"} des={"What I Do"} />
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-20'>

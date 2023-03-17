@@ -1,5 +1,7 @@
 import './App.css';
 import Banner from './Components/Banner/Banner';
+import Features from './Components/Features/Features';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -7,6 +9,8 @@ function App() {
      <h1>this is navbar</h1>
       <div className='max-w-screen-xl mx-auto'>
         <Banner/>
+        <Features/>
+        <Projects/>
       </div>
     </div>
   );
