@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTypewriter,Cursor } from 'react-simple-typewriter';
+import { FaFacebook,FaTwitter,FaLinkedin,FaReact,FaNodeJs,FaFigma,FaFire } from 'react-icons/fa';
 
 const LeftBanner = () => {
 
@@ -29,6 +30,45 @@ const LeftBanner = () => {
                  </p>
 
             </div>
+
+
+            <div className='flex flex-col xl:flex-row gap-4 lgl:gap-0 justify-between'>
+            <div>
+            <h2 className='text-base uppercase font-titleFont mb-4'>find me in</h2>
+               
+            <div className='flex gap-4'>
+                <span className='bannerIcon'>
+                    <FaFacebook/>
+                </span>
+                <span className='bannerIcon'>
+                    <FaTwitter/>
+                </span>
+                <span className='bannerIcon'>
+                    <FaLinkedin/>
+                </span>
+            </div>
+         </div>
+
+            <div>
+          <h2 className="text-base uppercase font-titleFont mb-4">
+            BEST SKILL ON
+          </h2>
+          <div className="flex gap-4">
+            <span className="bannerIcon">
+              <FaReact />
+            </span>
+            <span className="bannerIcon">
+              <FaNodeJs />
+            </span>
+            <span className="bannerIcon">
+              <FaFire />
+            </span>
+            <span className="bannerIcon">
+              <FaFigma />
+            </span>
+          </div>
+            </div>
+        </div>
             
         </div>
     );
