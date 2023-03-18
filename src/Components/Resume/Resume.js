@@ -21,25 +21,25 @@ const Resume = () => {
                 <ul className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
 
                     <li onClick={() => setEducationData(true) & setSkillData(false) & setExperienceData(false) & setAchievementData(false)}
-                        className={`${educationData? 'border-designColor' : 'border-transparent'}`}
+                        className={`resumeLi ${educationData? 'border-designColor rounded-lg' : 'border-transparent'}`}
                     >
                         Education
                     </li>
 
                     <li onClick={() => setEducationData(false) & setSkillData(true) & setExperienceData(false) & setAchievementData(false)}
-                        className={`${skillData? 'border-designColor' : 'border-transparent'}`}
+                        className={`${skillData? 'border-designColor rounded-lg' : 'border-transparent'} resumeLi`}
                     >
                         Skills
                     </li>
 
                     <li onClick={() => setEducationData(false) & setSkillData(false) & setExperienceData(true) & setAchievementData(false)}
-                        className={`${experienceData? 'bg-designColor' : 'border-y-transparent'}`}
+                        className={`${experienceData? 'bg-designColor rounded-lg' : 'border-transparent'} resumeLi`}
                     >
                         Experience
                     </li>
 
                     <li onClick={() => setEducationData(false) & setSkillData(false) & setExperienceData(false) & setAchievementData(true)}
-                        className={`${achievementData? 'bg-bodyColor' : 'border-y-transparent'}`}
+                        className={`${achievementData? 'bg-bodyColor rounded-lg' : 'border-transparent'} resumeLi`}
                     >
                         Achievement
                     </li>
