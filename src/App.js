@@ -2,6 +2,7 @@ import './App.css';
 import Banner from './Components/Banner/Banner';
 import Features from './Components/Features/Features';
 import Projects from './Components/Projects/Projects';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Banner/>
         <Features/>
         <Projects/>
+        <Resume></Resume>
       </div>
     </div>
   );
