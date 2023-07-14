@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTypewriter,Cursor } from 'react-simple-typewriter';
-import { FaFacebook,FaTwitter,FaLinkedin,FaReact,FaNodeJs,FaFigma,FaFire } from 'react-icons/fa';
+import { FaFacebook,FaTwitter,FaLinkedin,FaReact } from 'react-icons/fa';
+import { SiTailwindcss,SiMongodb,SiJavascript} from 'react-icons/si';
 import resume from '../../assets/Resume/resume of Rafat.pdf'
 
 const LeftBanner = () => {
@@ -30,7 +31,9 @@ const LeftBanner = () => {
 
             </div>
 
-            <div className='-my-10'>
+            <div className='-my-10 inline'>
+          <span className="w-3 h-3 rounded-full bg-green-500 inline-flex hover:bg-red-500 mr-2 duration-300"></span>
+       
               <button className='text-blue-400'><a target='_blank'  rel="noreferrer" href={resume}>Download Resume</a></button>
             </div>
 
@@ -57,17 +60,17 @@ const LeftBanner = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            <span title='React.js' className="bannerIcon">
               <FaReact />
             </span>
-            <span className="bannerIcon">
-              <FaNodeJs />
+            <span title='JavaScript' className="bannerIcon">
+              <SiJavascript />
             </span>
-            <span className="bannerIcon">
-              <FaFire />
+            <span title='TailwindCSS' className="bannerIcon">
+              <SiTailwindcss />
             </span>
-            <span className="bannerIcon">
-              <FaFigma />
+            <span title='MongoDB' className="bannerIcon">
+              <SiMongodb />
             </span>
           </div>
             </div>

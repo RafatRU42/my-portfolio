@@ -14,7 +14,7 @@ const Navbar = () => {
        <p className='text-xl font-bold'>Rafat's Portfolio</p>
       </div>
       <div>
-        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10 ml-10">
           {NavLinks.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -44,11 +44,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                <p>Rafat's Portfolio</p>
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
-                </p>
+               
               </div>
               <ul className="flex flex-col gap-4">
                 {NavLinks.map((item) => (

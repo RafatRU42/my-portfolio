@@ -12,39 +12,33 @@ const Features = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-20'>
             <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Designing & Developing"
+          des="I am responsible for building web applications using the MERN (MongoDB, Express.js, React, Node.js) technology stack."
          
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Front-end Development"
+          des=" I will create responsive, interactive, and visually appealing user interfaces that provide a smooth user experience."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Back-end Development"
+          des="I will handle the server-side of the application using Node.js and Express."
           icon={<SiProgress />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Database Management"
+          des="As a MERN Stack developer, I will work with MongoDB or other NoSQL databases to store and retrieve data efficiently. "
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Testing and Debugging"
+          des="I am responsible for writing unit tests, conducting integration testing, and debugging issues in both the front-end and back-end components of the application. "
           icon={<SiAntdesign />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Continuous Learning and Improvement"
+          des="As a developer, I want to stay updated with the latest technologies, tools, and best practices in the MERN Stack ecosystem."
           icon={<FaGlobe />}
         />
 
