@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from "framer-motion"
-import ResumeCards from './ResumeCards';
 
 
 const Experience = () => {
@@ -10,58 +9,39 @@ const Experience = () => {
         animate={{ opacity: 1, transition: { duration: 0.5 } }}
         className="py-12 font-titleFont flex gap-20"
       >
-        <div>
-          <div className="flex flex-col gap-4">
-            <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-            <h2 className="text-4xl font-bold">Job Experience</h2>
-          </div>
-          <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-            <ResumeCards
-              title="Sr. Software Engineer"
-              subTitle="Google Out Tech - (2017 - Present)"
-              result="USA"
-              des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-            />
-            <ResumeCards
-              title="Web Developer & Trainer"
-              subTitle="Apple Developer Team - (2012 - 2016)"
-              result="MALAYSIA"
-              des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-            />
-            <ResumeCards
-              title="Front-end Developer"
-              subTitle="Nike - (2020 - 2011)"
-              result="Oman"
-              des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-            />
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-col gap-4">
-            <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-            <h2 className="text-4xl font-bold">Trainer Experience</h2>
-          </div>
-          <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-            <ResumeCards
-              title="Gym Instructor"
-              subTitle="Rainbow Gym Center (2015 - 2020)"
-              result="DHAKA"
-              des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-            />
-            <ResumeCards
-              title="Web Developer and Instructor"
-              subTitle="SuperKing College (2010 - 2014)"
-              result="CANADA"
-              des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-            />
-            <ResumeCards
-              title="School Teacher"
-              subTitle="Kingstar Secondary School (2001 - 2010)"
-              result="NEVADA"
-              des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-            />
-          </div>
-        </div>
+       <p>
+
+      
+
+Hi! I'm Ruhul Muazzam Rafat, a passionate MERN Stack web developer, I love creating elegant and user-friendly applications that leave a positive impact on users. <br />
+
+<p className='text-xl mt-5 mb-3'>Skills and Technologies:</p>
+As a MERN Stack developer, I excel in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I'm also well-versed in front-end technologies like HTML, CSS, JavaScript, and modern UI frameworks such as Bootstrap and TailwindCSS.
+
+<p className='text-xl mt-5 mb-3'>My Approach:</p>
+I believe in a problem-solving approach to development, where I analyze challenges from multiple angles to find efficient and scalable solutions. I'm always eager to optimize code for performance and prioritize delivering seamless user experiences.
+
+<p className='text-xl mt-5 mb-3'>Passion for Web Development:</p>
+Web development has been my passion since I started coding. I'm captivated by the ever-evolving nature of the tech industry and continually seek to expand my knowledge to stay ahead of the curve. Whether it's building interactive web applications or implementing responsive designs, I'm always excited to take on new challenges.
+
+<p className='text-xl mt-5 mb-3'>Collaboration and Teamwork:</p>
+Working in a collaborative environment energizes me. I'm a strong believer in open communication and teamwork. I enjoy exchanging ideas with my colleagues and believe that diverse perspectives lead to better outcomes. I value feedback and use it to continuously improve my work.
+
+<p className='text-xl mt-5 mb-3'>Notable Projects:</p>
+Throughout my career, I've had the opportunity to work on various exciting projects, including e-commerce platforms, social networking applications, and data-driven dashboards.
+
+<p className='text-xl mt-5 mb-3'>Continuous Learning:</p>
+I'm committed to lifelong learning and actively participate in web development communities. I attend workshops, engage in hackathons, and explore new libraries and frameworks to sharpen my skills.
+
+
+
+<p className='text-xl mt-5 mb-3'>Let's Connect!</p>
+I'm always open to new opportunities and collaborations. If you're looking for a dedicated MERN Stack developer to join your team or work on your project, I'd love to hear from you! Feel free to reach out through the contact options provided on this website.
+
+Looking forward to connecting with you!
+
+
+       </p>
       </motion.div>
     );
 };

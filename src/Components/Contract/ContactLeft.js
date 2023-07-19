@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook,FaLinkedin,FaWhatsapp,FaTelegram } from "react-icons/fa";
 // import { contactImg } from '../../index';
 import contactImg from '../../assets/images/contact/contactImg.png'
 
@@ -16,12 +16,9 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
-        <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
-        </p>
+     
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">01580403336</span>
+          Phone: <span className="text-lightText">+8801316622988 </span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">rmrafat127@gmail.com</span>
@@ -30,15 +27,18 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+        <span title='Facebook' className='bannerIcon'>
+                    <a href="https://www.facebook.com/rohulmuazzam.rafat" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
+                </span>
+                <span title='WhatsApp' className='bannerIcon'>
+                    <a href="https://api.whatsapp.com/send?phone=01580403336" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
+                </span>
+                <span title='Telegram' className='bannerIcon'>
+                    <a href="https://t.me/Ruhul_Muazzam_Rafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
+                </span>
+                <span title='LinkedIn' className='bannerIcon'>
+                    <a href="https://www.linkedin.com/in/ruhul-muazzam-rafat-67015a283/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
+                </span>
         </div>
       </div>
     </div>

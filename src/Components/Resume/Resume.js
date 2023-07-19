@@ -37,7 +37,7 @@ const Resume = () => {
                     <li onClick={() => setEducationData(false) & setSkillData(false) & setExperienceData(true) & setAchievementData(false)}
                         className={`${experienceData? 'bg-designColor rounded-lg' : 'border-transparent'} resumeLi`}
                     >
-                        Experience
+                       About me
                     </li>
 
                     <li onClick={() => setEducationData(false) & setSkillData(false) & setExperienceData(false) & setAchievementData(true)}

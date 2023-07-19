@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{ useState} from 'react'
 import Title from '../Layout/Title';
 import ContactLeft from './ContactLeft';
 
@@ -21,6 +21,10 @@ const Contact = () => {
   // ========== Email Validation end here ================
 
   const handleSend = (e) => {
+
+ 
+
+
     e.preventDefault();
     if (username === "") {
       setErrMsg("Username is required!");
@@ -47,7 +51,40 @@ const Contact = () => {
       setSubject("");
       setMessage("");
     }
+
+
+    const messageInfo = {
+      username,
+      phoneNumber,
+      email,
+      subject,
+      message,
+      errMsg,
+      successMsg
+    }
+
+
+    fetch('http://localhost:5000/messageSender',{
+      method:'POST',
+      headers:{
+        'content-type' : 'application/json'
+      },
+      body:JSON.stringify(messageInfo)
+      
+    })
+    .then(res =>res.json())
+    .then(data =>{
+      console.log('data',data);
+    })
+
+
+
   };
+
+
+
+
+
   return (
     <section
       id="contact"
@@ -56,6 +93,8 @@ const Contact = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="CONTACT" des="Contact With Me" />
       </div>
+      <p className='py-5'>Feel free to reach out to me through my <a className='text-blue-400' href="mailto:rmrafat127@gmail.com" target="_blank" rel="noopener noreferrer">Email Account</a>. You can also reach me on <a className='text-blue-400' href="https://api.whatsapp.com/send?phone=01580403336" target="_blank" rel="noopener noreferrer"> WhatsApp</a> or <a className='text-blue-400' href="https://t.me/Ruhul_Muazzam_Rafat" target="_blank" rel="noopener noreferrer"> Telegram</a>. Or simply fill up the form, I will get back to you as soon as possible.</p>
+
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />

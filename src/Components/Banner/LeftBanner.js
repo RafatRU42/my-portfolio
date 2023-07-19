@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTypewriter,Cursor } from 'react-simple-typewriter';
-import { FaFacebook,FaTwitter,FaLinkedin,FaReact } from 'react-icons/fa';
+import { FaFacebook,FaTwitter,FaLinkedin,FaReact,FaWhatsapp,FaTelegram } from 'react-icons/fa';
 import { SiTailwindcss,SiMongodb,SiJavascript} from 'react-icons/si';
 import resume from '../../assets/Resume/resume of Rafat.pdf'
 
@@ -43,14 +43,17 @@ const LeftBanner = () => {
             <h2 className='text-base uppercase font-titleFont mb-4'>find me in</h2>
                
             <div className='flex gap-4'>
-                <span className='bannerIcon'>
-                    <FaFacebook/>
+                <span title='Facebook' className='bannerIcon'>
+                    <a href="https://www.facebook.com/rohulmuazzam.rafat" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
                 </span>
-                <span className='bannerIcon'>
-                    <FaTwitter/>
+                <span title='WhatsApp' className='bannerIcon'>
+                    <a href="https://api.whatsapp.com/send?phone=01580403336" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
                 </span>
-                <span className='bannerIcon'>
-                    <FaLinkedin/>
+                <span title='Telegram' className='bannerIcon'>
+                    <a href="https://t.me/Ruhul_Muazzam_Rafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
+                </span>
+                <span title='LinkedIn' className='bannerIcon'>
+                    <a href="https://www.linkedin.com/in/ruhul-muazzam-rafat-67015a283/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
                 </span>
             </div>
          </div>
