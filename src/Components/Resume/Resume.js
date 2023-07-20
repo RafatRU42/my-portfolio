@@ -43,7 +43,7 @@ const Resume = () => {
                     <li onClick={() => setEducationData(false) & setSkillData(false) & setExperienceData(false) & setAchievementData(true)}
                         className={`${achievementData? 'bg-bodyColor rounded-lg' : 'border-transparent'} resumeLi`}
                     >
-                        Achievement
+                        Testimonial
                     </li>
 
                 </ul>
