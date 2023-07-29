@@ -31,10 +31,10 @@ const ContactLeft = () => {
                     <a href="https://www.facebook.com/rohulmuazzam.rafat" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
                 </span>
                 <span title='WhatsApp' className='bannerIcon'>
-                    <a href="https://api.whatsapp.com/send?phone=01580403336" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
+                    <a href="https://api.whatsapp.com/send?phone=8801580403336" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
                 </span>
                 <span title='Telegram' className='bannerIcon'>
-                    <a href="https://t.me/Ruhul_Muazzam_Rafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
+                    <a href="https://t.me/rmrafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
                 </span>
                 <span title='LinkedIn' className='bannerIcon'>
                     <a href="https://www.linkedin.com/in/ruhul-muazzam-rafat-67015a283/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>

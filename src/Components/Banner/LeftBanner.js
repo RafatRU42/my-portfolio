@@ -3,11 +3,12 @@ import { useTypewriter,Cursor } from 'react-simple-typewriter';
 import { FaFacebook,FaTwitter,FaLinkedin,FaReact,FaWhatsapp,FaTelegram } from 'react-icons/fa';
 import { SiTailwindcss,SiMongodb,SiJavascript} from 'react-icons/si';
 import resume from '../../assets/Resume/resume of Rafat.pdf'
+import { Link } from 'react-scroll';
 
 const LeftBanner = () => {
 
     const [text] = useTypewriter({
-        words:["Professional Coder.","MERN Stack Developer.","UI Designer."],
+        words:["Professional Coder.","MERN Stack Developer.","Passionate Coder."],
         loop:true,
         typeSpeed:20,
         deleteSpeed:10,
@@ -34,7 +35,8 @@ const LeftBanner = () => {
             <div className='-my-10 inline'>
           <span className="w-3 h-3 rounded-full bg-green-500 inline-flex hover:bg-red-500 mr-2 duration-300"></span>
        
-              <button className='text-blue-400'><a target='_blank'  rel="noreferrer" href={resume}>Download Resume</a></button>
+                        <button className='text-blue-400'><a target='_blank'  rel="noreferrer" href="https://drive.google.com/file/d/1TwIIgzIoi-uMdXn0u-87VYtbqDIkHwrL/view">Download Resume</a></button>
+
             </div>
 
 
@@ -47,10 +49,10 @@ const LeftBanner = () => {
                     <a href="https://www.facebook.com/rohulmuazzam.rafat" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
                 </span>
                 <span title='WhatsApp' className='bannerIcon'>
-                    <a href="https://api.whatsapp.com/send?phone=01580403336" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
+                    <a href="https://api.whatsapp.com/send?phone=8801580403336" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
                 </span>
                 <span title='Telegram' className='bannerIcon'>
-                    <a href="https://t.me/Ruhul_Muazzam_Rafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
+                    <a href="https://t.me/rmrafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
                 </span>
                 <span title='LinkedIn' className='bannerIcon'>
                     <a href="https://www.linkedin.com/in/ruhul-muazzam-rafat-67015a283/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>

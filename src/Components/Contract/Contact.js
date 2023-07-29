@@ -42,7 +42,7 @@ const Contact = () => {
     
     else{
       setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+        `Sorry dear ${username}, Your Messages not sent. Please try another way.`
       );
       setErrMsg("");
       setUsername("");
@@ -93,7 +93,7 @@ const Contact = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="CONTACT" des="Contact With Me" />
       </div>
-      <p className='py-5'>Feel free to reach out to me through my <a className='text-blue-400' href="mailto:rmrafat127@gmail.com" target="_blank" rel="noopener noreferrer">Email Account</a>. You can also reach me on <a className='text-blue-400' href="https://api.whatsapp.com/send?phone=01580403336" target="_blank" rel="noopener noreferrer"> WhatsApp</a> or <a className='text-blue-400' href="https://t.me/Ruhul_Muazzam_Rafat" target="_blank" rel="noopener noreferrer"> Telegram</a>. Or simply fill up the form, I will get back to you as soon as possible.</p>
+      <p className='py-5'>Feel free to reach out to me through my <a className='text-blue-400' href="mailto:rmrafat127@gmail.com" target="_blank" rel="noopener noreferrer">Email Account</a>. You can also reach me on <a className='text-blue-400' href="https://api.whatsapp.com/send?phone=8801580403336" target="_blank" rel="noopener noreferrer"> WhatsApp</a> or <a className='text-blue-400' href="https://t.me/rmrafat" target="_blank" rel="noopener noreferrer"> Telegram</a>. Or simply fill up the form, I will get back to you as soon as possible.</p>
 
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
@@ -106,7 +106,7 @@ const Contact = () => {
                 </p>
               )}
               {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                   {successMsg}
                 </p>
               )}
@@ -196,7 +196,7 @@ const Contact = () => {
                 </p>
               )}
               {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
                   {successMsg}
                 </p>
               )}
