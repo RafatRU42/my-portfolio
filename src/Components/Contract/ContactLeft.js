@@ -37,7 +37,7 @@ const ContactLeft = () => {
                     <a href="https://t.me/rmrafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
                 </span>
                 <span title='LinkedIn' className='bannerIcon'>
-                    <a href="https://www.linkedin.com/in/ruhul-muazzam-rafat-67015a283/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
+                    <a href="https://www.linkedin.com/in/rmrafat/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
                 </span>
         </div>
       </div>

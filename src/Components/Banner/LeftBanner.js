@@ -35,7 +35,7 @@ const LeftBanner = () => {
             <div className='-my-10 inline'>
           <span className="w-3 h-3 rounded-full bg-green-500 inline-flex hover:bg-red-500 mr-2 duration-300"></span>
        
-                        <button className='text-blue-400'><a target='_blank'  rel="noreferrer" href="https://drive.google.com/file/d/1TwIIgzIoi-uMdXn0u-87VYtbqDIkHwrL/view">Download Resume</a></button>
+                        <button className='text-blue-400'><a target='_blank'  rel="noreferrer" href="https://drive.google.com/file/d/1pBiw1QIBTWr5QfVxHQt4pbHsSRzObRA0/view?usp=sharing">Download Resume</a></button>
 
             </div>
 
@@ -55,7 +55,7 @@ const LeftBanner = () => {
                     <a href="https://t.me/rmrafat" target="_blank" rel="noopener noreferrer"><FaTelegram/></a>
                 </span>
                 <span title='LinkedIn' className='bannerIcon'>
-                    <a href="https://www.linkedin.com/in/ruhul-muazzam-rafat-67015a283/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
+                    <a href="https://www.linkedin.com/in/rmrafat/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
                 </span>
             </div>
          </div>
