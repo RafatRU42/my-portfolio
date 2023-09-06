@@ -1,7 +1,6 @@
 import React from 'react';
 import Title from '../Layout/Title';
 import ProjectsCard from './ProjectsCard';
-import {projectOne,projectTwo,projectThree} from '../../assets/index'
 
 const Projects = () => {
     return (
@@ -21,23 +20,24 @@ const Projects = () => {
           liveSite='https://airlinesweb.netlify.app/'
         />
         <ProjectsCard
-          title="RM Learning Point"
-          des=" This full-stack web application is built using React, Bootstrap, Node.js, MongoDB,
+          title="E-Commerce Site"
+          des=" This full-stack responsive e-commerce application is built using React, Redux, Tailwind, Node.js, MongoDB,
           Express, Firebase, React router DOM."
-          src='https://i.ibb.co/g71nBy4/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f.gif'
-          serverLink='https://github.com/RafatRU42/learning-point-server'
-          clientLink='https://github.com/RafatRU42/learning-point'
-          liveSite='https://learning-point-client-1058c.web.app/'
+          src='https://i.ibb.co/KXkQ1Mt/ecommerce-marketing-strategy.gif'
+          serverLink='https://github.com/RafatRU42/allBirds-server'
+          clientLink='https://github.com/RafatRU42/allBirds-client'
+          liveSite='https://allbirds-web.netlify.app/'
 
         />
+        {/*  */}
         <ProjectsCard
-          title="Pigeon IT Center"
-          des="This is a quiz testing application. This full-stack web application is built using React, Bootstrap, Node.js, MongoDB,
+          title="Task Manager "
+          des=" This full-stack task management application is built using Typescript, React, Redux, Node.js, MongoDB,
           Express, Firebase, React router DOM."
-          src='https://i.ibb.co/ZmnqdCB/giphy.gif'
-          serverLink=''
-          clientLink='https://github.com/RafatRU42/pigeon-quiz'
-          liveSite='https://64c4d5de23a9c35161205c01--statuesque-madeleine-b3809c.netlify.app/quizRoute'
+          src='https://i.ibb.co/g71nBy4/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f.gif'
+          serverLink='https://github.com/RafatRU42/task-manager-server'
+          clientLink='https://github.com/RafatRU42/task-manager'
+          liveSite='https://task-manager-rafat.netlify.app/'
 
         />
        
